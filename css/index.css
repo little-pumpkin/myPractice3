@@ -1,0 +1,441 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body {
+  width: 100%;
+  font-size: 62.5%;
+}
+
+/*public*/
+.title {
+  width: 100%;
+  color: #484747;
+  font-size: 2.2rem;
+  text-align: center;
+  line-height: 12rem;
+}
+
+/*home*/
+.home-pic{
+  background: url(../img/home.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  color: white;
+  font-size: 2.2rem;
+}
+
+.home-small-title {
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+/*second*/
+.second-page {
+  width: 100%;
+  height: auto;
+  background: url(../img/second.jpg) no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+}
+
+.second-inner {
+  width: 90%;
+  margin: auto;
+}
+
+.second-title {
+  color: black;
+}
+
+.second-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.second-left {
+  border: .2rem solid black;
+  max-width: 30rem;
+  padding: 1.5rem;
+  margin: 0 1rem 2rem 1rem;
+}
+
+.second-right {
+  border: .2rem solid black;
+  max-width: 30rem;
+  padding: 1.5rem;
+  margin: 0 1rem 2rem 1rem;
+}
+
+/*third*/
+.third-page {
+  width: 100%;
+  height: auto;
+  background-color: #ecf0f1;
+}
+
+.third-content {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.third-content img {
+  width: 80%;
+}
+
+.third-left {
+  padding-bottom: 3rem;
+}
+
+/*Carousel*/
+.carousel {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-content {
+  width: 80%;
+  margin: auto;
+}
+
+/*fourth*/
+.fourth-page {
+  width: 100%;
+  height: auto;
+}
+
+.fourth-content {
+  width: 100%;
+  text-align: center;
+}
+
+.fourth-show-part {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pic {
+  display: inline-block;
+  padding: 0 1rem 2rem 1rem; 
+  width: 14rem;
+}
+
+.pic .pic-include {
+  width: 14rem;
+  height: 10rem;
+}
+
+.pic img {
+  max-width: 14rem;
+  max-height: 10rem;
+}
+
+.good-name {
+  max-width: 14rem;
+  word-wrap: break-word;
+}
+
+.pic span {
+  height: auto;
+  word-wrap: break-word;
+}
+
+.grey-bg {
+  background-color: #ecf0f1;
+}
+
+/*footer*/
+.footer {
+  background: url(../img/footer.jpg) no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.grey {
+  width: 100%;
+  height: 100%; 
+}
+
+.grey::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.39);
+}
+
+.footer-text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-title {
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 5rem; 
+}
+
+.footer-input {
+  width: 100%;
+  padding-bottom: .5rem;
+}
+
+.info {
+  width: 100%;
+}
+
+.name {
+  width: 20rem;
+  height: 3rem;
+  margin: .2rem;
+  font-size: 1rem;
+  padding-left: .5rem;
+  border-radius: .25rem;
+  border: 0px;
+}
+
+.remark {
+  margin-top: .4rem;
+  width: 40.8rem;
+  height: 7.5rem;
+  font-size: 1rem;
+  padding: .5rem;
+  border-radius: .25rem;
+  border: 0px;
+}
+
+.footer-submit {
+  width: 20%;
+  height: 3.5rem;
+  background-color: #60cff1;
+  color: white;
+  line-height: 3.5rem;
+  border-radius: 2rem;
+  margin: .5rem auto;
+}
+
+@media screen and (max-width: 750px) {
+  .name {
+    display: block;
+    width: 15rem;
+    margin-top: .5rem;
+    margin: .55rem auto .25rem;
+  }
+
+  .remark {
+    width: 14.5rem;
+  }
+
+  .footer-submit {
+    line-height: 2.8rem; 
+    height: 2.8rem;
+  }
+
+  .copyright {
+    height: 5rem;
+  }
+}
+
+/*版权*/
+.copyright {
+  width: 100%;
+  height: 15rem;
+  background-color: #212c37;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.copyright span {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*导航*/
+.bar {
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .8;
+}
+
+.icon img{
+  width: 3rem;
+  height: 3rem;
+  opacity: .5;
+}
+
+.text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 150;
+  background-color: grey;
+  opacity: .8;
+  border-top: .1rem solid black;
+  transition:transform .24s linear;
+  transform-origin: left;
+  transform: perspective(1000px) rotateY(90deg);
+}
+
+.bar:hover .text{
+  transform: rotateY(0deg);
+}
+
+.bar .text a {
+  transition: all .5s ease;
+}
+
+.text li {
+  list-style-type: none;
+  width: 7rem;
+  font-size: 1.5rem;
+  color: white;
+  line-height: 3rem;
+  padding-left: .7rem;
+  border-bottom: .1rem solid black;
+}
+
+.text li a {
+  text-decoration: none;
+  color: white;
+}
+
+.scroll:hover {
+  color: black;
+}
+
+@media screen and (max-width: 900px) {
+  .icon img{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .text {
+    left: 0;
+  }
+
+  .text li {
+    width: 5rem;
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
+
+  .copyright {
+    height: 10rem;
+  }
+
+}
+
+/*pop*/
+.detail-outer {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-color {
+  background-color: black;
+  opacity: .9;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+}
+
+.bg-color img {
+  width: 5rem;
+  height: 5rem;
+  opacity: .5;
+  float: right;
+}
+
+.big-pic {
+  width: 80%;
+  height: 80%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 102;
+}
+
+.inner-pic {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 102;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.show-hide {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem; 
+  padding-left: 2rem;
+  background: url('../img/down.png') center center no-repeat;
+  background-size: 1.5rem 1.5rem;
+}
+
+.current div{
+  background: url('../img/up.png') center center no-repeat;
+  background-size: 1.5rem 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
