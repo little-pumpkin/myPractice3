@@ -345,6 +345,20 @@
   color: black;
 }
 
+.to-top {
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: green;
+  opacity: 0.5;
+  color: white;
+  font-size: 1.1rem; 
+  text-align: center;
+  line-height: 1.5rem;
+}
+
 @media screen and (max-width: 900px) {
   .icon img{
     width: 2.5rem;
@@ -363,6 +377,15 @@
 
   .copyright {
     height: 10rem;
+  }
+
+  .to-top {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: .8rem; 
+    line-height: 1rem;
   }
 
 }
@@ -425,6 +448,20 @@
   background-size: 1.5rem 1.5rem;
 }
 
+/*.to-top {
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: green;
+  opacity: 0.5;
+  color: white;
+  font-size: 1.1rem; 
+  text-align: center;
+  line-height: 1.5rem;
+}
+*/
 
 
 
